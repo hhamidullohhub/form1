@@ -1,4 +1,2 @@
-alert ("tabriklayman endi siz Hamidulohning qopqonidasiz : )");
-
-var ism = "hamidulloh"
-console.log('ism');
+alert ("tabriklayman endi siz Hamidulohning qopqonidasiz 😈");
+alert ("Hamidullohning saytlaridan extiyot bolishingizni maslahat beraman 😊 ")
