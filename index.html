@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <script src="./main.js">
+
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label { 
+            display: block;
+        }
+
+        input {
+            width: 100%;
+            padding: 0px 10px;
+            box-sizing: border-box;
+            padding: 8px;
+            margin-bottom: 18px;
+        }
+
+        button {
+            background-color: #4caf50;
+            padding: 10px 15px;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+        }
+
+        textarea {
+            min-width: 200px;
+            min-height: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form>
+        <label for="name">Name</label>
+        <input type="text" placeholder="name">
+
+        <label for="email">surname</label>
+        <input type="text" placeholder="surname">
+
+        <label for="message">send your message</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Hamiduloh uchun xabar yuboring"></textarea>
+
+        <button type="submt">submit</button>
+    </form>
+
+</body>
+
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+  <title>Your Form</title>
+</head>
+<body>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html> -->
